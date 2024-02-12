@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>memory gem</title>
+  </head>
+  <style>
+    html {
+      background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    h1 {
+      text-align: center;
+      font-weight: 900;
+    }
+    .board-container {
+      position: relative;
+    }
+    .board {
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(4, auto);
+      grid-gap: 20px;
+    }
+    .lepel {
+      border: 1px solid black;
+      background-color: #08aeea;
+      background-image: linear-gradient(0deg, #08aeea 0%, #2af598 100%);
+
+      padding: 1rem;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .lepel:hover {
+      transform: scale(0.9);
+      background-color: #00dbde;
+      background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+    }
+    .lepel a {
+      color: rgb(0, 42, 255);
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+  <body>
+    <section>
+      <h1>Gem Meomory</h1>
+      <div class="board-container">
+        <div class="board" data-dimension="4">
+          <div class="lepel" for="lepel">
+            <a href="lepel1.html" id="lepel">lepel 1</a>
+          </div>
+          <div class="lepel" for="lepel">
+            <a href="lepel2.html" id="lepel">lepel 2</a>
+          </div>
+          <div class="lepel" for="lepel">
+            <a href="lepel3.html" id="lepel">lepel 3</a>
+          </div>
+          <div class="lepel" for="lepel">
+            <a href="lepel4.html" id="lepel">lepel 4</a>
+          </div>
+          <div class="lepel" for="lepel">
+            <a href="lepel5.html" id="lepel">lepel 5</a>
+          </div>
+          <div class="lepel" for="lepel">
+            <a href="lepel6.html" id="lepel">lepel 6</a>
+          </div>
+          <div class="lepel" for="lepel">
+            <a href="lepel7.html" id="lepel">lepel 7</a>
+          </div>
+          <div class="lepel" for="lepel">
+            <a href="lepel8.html" id="lepel">lepel 8</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
